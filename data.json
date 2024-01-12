@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Display PCI Device Information",
+    "command": "lspci",
+    "helpContent": "<p>To display a list of PCI devices recognized by the Linux kernel, use the <code>lspci</code> command.</p><p>This command provides information such as PCI device bus, device, and function numbers.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ lspci</span></p><p><span style=\"color: black;\">00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)</span></p>"
+  },
+  {
+    "name": "Display PCI Device Information (Tree Format)",
+    "command": "lspci -t",
+    "helpContent": "<p>Use the <code>lspci -t</code> command to display PCI device information in tree format.</p><p>This provides a clear hierarchical view of the devices.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ lspci -t</span></p>"
+  },
+  {
+    "name": "Display USB Device Information",
+    "command": "lsusb",
+    "helpContent": "<p>The <code>lsusb</code> command displays information about USB devices.</p><p>It shows a detailed list of connected USB devices.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ lsusb</span></p>"
+  },
+  {
+    "name": "Display CPU Information",
+    "command": "cat /proc/cpuinfo",
+    "helpContent": "<p>The <code>cat /proc/cpuinfo</code> command displays detailed information about the CPU in your PC.</p><p>This includes processor model, clock speed, number of cores, and more.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ cat /proc/cpuinfo</span></p>"
+  },
+  {
+    "name": "Display Memory Information",
+    "command": "cat /proc/meminfo",
+    "helpContent": "<p>The <code>cat /proc/meminfo</code> command displays information about the memory in your PC.</p><p>Detailed statistics about physical and swap memory are shown.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ cat /proc/meminfo</span></p>"
+  },
+  {
+    "name": "Display System Architecture",
+    "command": "arch",
+    "helpContent": "<p>Use the <code>arch</code> command to display the system's architecture (32-bit or 64-bit).</p><p>If run without options, it shows the default architecture of the system.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ arch</span></p>"
+  },
+  {
+    "name": "Display 32-bit Architecture",
+    "command": "arch -i386",
+    "helpContent": "<p>Use the <code>arch -i386</code> command to display information about the 32-bit architecture.</p><p>This is an example with the specified option.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ arch -i386</span></p>"
+  },
+  {
+    "name": "Display Distribution Information",
+    "command": "cat /etc/os-release",
+    "helpContent": "<p>The <code>cat /etc/os-release</code> command displays detailed information about the current Linux distribution.</p><p>It includes the distribution's name, version, ID, and more.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ cat /etc/os-release</span></p>"
+  },
+  {
+    "name": "Display Linux Kernel Version",
+    "command": "uname -r",
+    "helpContent": "<p>Use the <code>uname -r</code> command to display the Linux kernel version.</p><p>This command is commonly used to check the system's kernel version.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ uname -r</span></p>"
+  },
+  {
+    "name": "Display System Details",
+    "command": "uname -a",
+    "helpContent": "<p>The <code>uname -a</code> command displays detailed information about the system.</p><p>This includes the kernel version, hostname, architecture, and more.</p>",
+    "tutorial": "<p><span style=\"color: black;\">$ uname -a</span></p>"
+  }
+]
